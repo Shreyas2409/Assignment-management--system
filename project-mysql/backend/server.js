@@ -38,10 +38,10 @@ storage
 const pool  = mysql.createConnection({
 		connectionLimit : 10,
 		host            : '127.0.0.1',
-		user            : 'shreyas',
-		password        : '123',
-		database        : 'test',
-		port            : '3308'
+		user            : '',
+		password        : '',
+		database        : '',
+		port            : ''
 });
 
 //faculty registration
